@@ -28,6 +28,7 @@
 		"@mateothegreat/svelte5-router": "^0.1.35",
 		"@sveltestrap/sveltestrap": "^6.2.7",
 		"bootstrap": "^5.3.3",
-		"svelte-spa-router": "^4.0.1"
+		"svelte-spa-router": "^4.0.1",
+		"svelte-jsoneditor": "2.3.1"
 	}
 }

@@ -1,0 +1,30 @@
+.tool-1 {
+	display: grid;
+	grid-template-columns: 320px 1fr;
+	grid-template-rows: min-content 1fr;
+	gap: 0;
+	grid-auto-flow: row;
+	grid-template-areas:
+		'top top'
+		'aside article';
+
+	.top {
+		grid-area: top;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.aside {
+		grid-area: aside;
+		position: relative;
+		overflow-y: auto;
+		background-color: var(--gray-200);
+	}
+
+	.article {
+		grid-area: article;
+		position: relative;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+}
